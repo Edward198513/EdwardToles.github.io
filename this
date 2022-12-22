@@ -1,0 +1,7 @@
+const robot = {
+  enegryLevel: 100,
+  checkEnergy() {
+  console.log(`Enegry is currently at ${this.energyLevel}`)
+  }
+}
+robot.checkEnergy();
